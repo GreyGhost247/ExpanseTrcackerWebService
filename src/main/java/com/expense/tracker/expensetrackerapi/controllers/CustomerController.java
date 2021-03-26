@@ -22,7 +22,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/customer")
-@CrossOrigin
+
 public class CustomerController {
 
     private final CustomerRepository customerRepository;
@@ -34,7 +34,7 @@ public class CustomerController {
         this.incomeRepository = incomeRepository;
         this.expenseRepository = expenseRepository;
     }
-
+    @CrossOrigin(origins = "https://expense-tracker.azurewebsites.net")
     @PostMapping("/login")
    Customer login(@RequestBody Customer customer, HttpServletResponse response) {
         try{
