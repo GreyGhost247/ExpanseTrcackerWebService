@@ -34,7 +34,7 @@ public class CustomerController {
         this.incomeRepository = incomeRepository;
         this.expenseRepository = expenseRepository;
     }
-  
+
     @PostMapping("/login")
    Customer login(@RequestBody Customer customer, HttpServletResponse response) {
         try{
