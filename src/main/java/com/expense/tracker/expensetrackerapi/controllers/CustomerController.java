@@ -22,7 +22,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/customer")
-@CrossOrigin(origins = "https://expense-tracker.azurewebsites.net")
+@CrossOrigin
 public class CustomerController {
 
     private final CustomerRepository customerRepository;
