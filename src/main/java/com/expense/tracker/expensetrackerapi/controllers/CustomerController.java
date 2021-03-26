@@ -21,7 +21,7 @@ import java.util.Optional;
 
 
 @RestController
-@RequestMapping("/api/customer")
+@RequestMapping("api/customer")
 @CrossOrigin
 public class CustomerController {
 
