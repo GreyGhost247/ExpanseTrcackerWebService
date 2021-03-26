@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("insight")
+@RequestMapping("/insight")
 @CrossOrigin
 public class InsightController {
     private final InsightDao insightDao;

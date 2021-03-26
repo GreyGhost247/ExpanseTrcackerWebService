@@ -11,7 +11,7 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
-@RequestMapping("average")
+@RequestMapping("/average")
 @CrossOrigin
 public class AverageController {
     private final MonthlyAverageDao monthlyAverageDao;
