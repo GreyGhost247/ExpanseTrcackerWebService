@@ -17,7 +17,7 @@ import static java.util.stream.Collectors.groupingBy;
 
 @RestController
 @RequestMapping("/transactions")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 public class UserIncomeTransactionsController {
     private final UserIncomeTransactionsDao userIncomeTransactionsDao;
     private final UserExpenseTransactionsDao userExpenseTransactionsDao;
